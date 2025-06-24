@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Wix+Madefor+Display:wght@400..800&display=swap");
+@import "tailwindcss";
+
+* {
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+.bebas {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+}
+
+.bg-img-1 {
+  background-image: url(./images/bearing.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-img-4 {
+  background-image: url(./images/bearing4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-img-2 {
+  background-image: url(./images/halfbearing.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-img-3 {
+  background-image: url(./images/rollerbearing.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image-owner-ref {
+  background-image: url(./images/owner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: saturate(2);
+}
+
+.bg-image-company-ref {
+  background-image: url(./images/company.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: saturate(2);
+}
+
+.nav-shadow {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.contact-shadow:hover {
+  box-shadow: #ff00cc 0px 0px 80px 1px;
+  transition: all 0.1s ease-in-out;
+}
+.product-shadow:hover {
+  box-shadow: #00ffd5 0px 0px 80px 1px;
+  transition: all 0.1s ease-in-out;
+}
+.industry-shadow:hover {
+  box-shadow: #00c8ff 0px 0px 80px 1px;
+  transition: all 0.1s ease-in-out;
+}
+.footer-shadow {
+  box-shadow: #67fff5 0px 0px 100px 30px;
+  transition: all 0.1s ease-in-out;
+}
+.footer-shadow:hover{
+  box-shadow: none;
+  transition: all 0.1s ease-in-out;
+}
+
+
+input{
+  padding: 10px;
+}
